@@ -25,7 +25,7 @@ responsabilidad:
 |-------------------------|----------------------------------------------------------------------------------|
 | `config.py`             | **Únicos datos del problema**: límites de la cuadrícula, costos especiales, domicilios y establecimientos. Nada más en el proyecto tiene números o direcciones "quemados". |
 | `grafo_base.py`         | Interfaz abstracta (`GrafoBase`) que define qué debe saber hacer cualquier representación de grafo. |
-| `grafo_prueba.py`       | Implementación **temporal** de `GrafoBase` (lista de adyacencia con diccionarios), solo para poder probar el proyecto mientras se elige la representación final. |
+| `grafo_lista_adyacencia.py`       | Implementación de `GrafoBase` (lista de adyacencia con diccionarios). |
 | `constructor_grafo.py`  | Construye el grafo de la cuadrícula (vértices y aristas con sus costos) a partir de `config.py`, usando únicamente la interfaz `GrafoBase`. |
 | `dijkstra.py`           | Algoritmo de Dijkstra implementado desde cero, con soporte para excluir un conjunto de aristas "prohibidas". |
 | `planificador.py`       | Lógica de sincronización: calcula las dos rutas, detecta si comparten alguna cuadra, recalcula evitando el cruce, y calcula la diferencia de horario de salida. |
