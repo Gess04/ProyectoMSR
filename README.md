@@ -33,10 +33,9 @@ responsabilidad:
 | `main.py`               | Punto de entrada: arma el grafo, pide el destino y muestra el resultado. |
 
 ## Cómo ejecutar
-
-```bash
+´´´
 python3 main.py
-```
+´´´
 
 El programa mostrará la lista de establecimientos disponibles (tomada de
 `config.py`) y pedirá el nombre de uno de ellos. Luego imprime la ruta
